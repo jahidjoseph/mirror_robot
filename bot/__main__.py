@@ -45,7 +45,7 @@ def stats(update, context):
 def start(update, context):
     start_string = f'''
 Hi Sir, I'm Fast Mirror Bot!
-I Can Mirror All Your Links to Google Drive. I Only Works For @AnonyCloud Group. Type /{BotCommands.HelpCommand} To Get List of Available Commands!
+I Can Mirror All Your Links to Google Drive. I Only Works For @PremiumAppsAccountFree Group. Type /{BotCommands.HelpCommand} To Get List of Available Commands!
 '''
     sendMessage(start_string, context.bot, update)
 
@@ -111,7 +111,7 @@ def bot_help(update, context):
 
 /{BotCommands.LogCommand}: Get A Log File Of The Bot. Handy For Getting Crash Reports! (Only For Bot Owner)
 
-This Bot Is Developed By @I_Am_Only_One_1 👑
+This Bot Is Developed By @itspriyo 👑
 '''
     sendMessage(help_string, context.bot, update)
 
